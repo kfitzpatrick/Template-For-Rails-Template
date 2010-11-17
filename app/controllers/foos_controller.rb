@@ -1,4 +1,7 @@
 class FoosController < ApplicationController
+  
+  before_filter :authenticate_user!
+  
   def index
     @foos = Foo.all
   end
