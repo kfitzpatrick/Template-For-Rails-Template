@@ -3,6 +3,7 @@ Feature: User logs in
   Users want to log in.
   
   Scenario: User logs in
+    Given a user with the email address "kevin@example.com"
     Given I am on the home page
     Then I should see "Sign in"
     And I should not see "Foos"
