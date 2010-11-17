@@ -2,6 +2,7 @@ source :gemcutter
 gem "rails", "2.3.8"
 gem "sqlite3-ruby", :require => "sqlite3"
 gem "devise", "1.0.8"
+gem "factory_girl", "1.2.4"
 
 group :development do
 end
