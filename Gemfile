@@ -9,9 +9,10 @@ end
 
 group :test do
   gem "rspec", "> 1.3", "< 2.0"
-  gem "rspec-rails", "> 1.3", "< 2.0"
+  gem "rspec-rails", ">= 1.3.3", "< 2.0"
   gem "remarkable_rails", "3.1.13"
   gem "capybara", "0.4.0"
   gem "cucumber-rails", "0.3.2"
   gem "database_cleaner", "0.5.2"
 end
+
